@@ -1,59 +1,21 @@
 body {
     font-family: "Times New Roman", Times, serif;
-    text-align: center;
     background-color: #f4f4f4;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #0077cc;
-    color: white;
-    padding: 20px;
-}
-
 nav {
     background-color: #333;
-    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-main {
-    margin: 20px;
-}
-
-a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #0077cc;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-a:hover {
-    background-color: #005fa3;
-}
+    list-style-type
