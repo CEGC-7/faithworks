@@ -1,6 +1,6 @@
 body {
     font-family: "Times New Roman", Times, serif;
-    background-color: #f4f4f4;
+    background-color: #E3E8C9; /* Light pale moss green */
     color: #333;
     margin: 0;
     padding: 0;
@@ -43,7 +43,7 @@ nav ul li a:hover {
 }
 
 header {
-    background-color: #6B8E23; /* Soft moss green */
+    background-color: #556B2F; /* Darker moss green */
     color: white;
     padding: 80px 20px 20px;
     text-align: center;
