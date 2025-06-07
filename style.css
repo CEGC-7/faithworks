@@ -1,69 +1,37 @@
-body {
-    font-family: "Times New Roman", Times, serif;
-    background-color: #C7D193; /* Light pale moss green */
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faithworks Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-nav, header {
-    background-color: #556B2F; /* Unified darker moss green */
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    position: relative; /* Ensures it flows correctly */
-}
+    <nav>
+        <ul>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/courses">Courses</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
 
-nav {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
+    <header>
+        <h1>Faithworks Academy</h1>
+        <p>Located at St. Andrew’s Presbyterian Church, Hamilton, NZ</p>
+    </header>
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
+    <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>Faithworks Academy provides theological education and spiritual growth opportunities for laypeople.</p>
+        </section>
+    </main>
 
-nav ul li {
-    margin: 0;
-}
+    <footer>
+        <p>&copy; 2025 Faithworks Academy - All Rights Reserved.</p>
+    </footer>
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 15px 20px;
-    display: inline-block;
-}
-
-nav ul li a:hover {
-    background-color: #6B8E23; /* Softer moss green for hover */
-    border-radius: 5px;
-}
-
-header {
-    padding: 80px 20px 20px;
-}
-
-header h1 {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 2.2rem; /* Slightly larger font */
-}
-
-main {
-    margin: 20px;
-    padding-top: 70px; /* Adjusted for fixed navbar */
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-}
+</body>
+</html>
