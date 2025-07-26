@@ -6,20 +6,27 @@ body {
     padding: 0;
 }
 
-nav, header {
-    background-color: #556B2F; /* Unified darker moss green */
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    position: relative;
-}
-
 nav {
+    background-color: #556B2F;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1000;
+    padding: 10px 0;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* adds space between logo and links */
+}
+
+.logo {
+    width: 60px;
+    height: 76px;
+    object-fit: cover;
 }
 
 nav ul {
@@ -43,7 +50,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #6B8E23; /* Softer moss green for hover */
+    background-color: #6B8E23;
     border-radius: 5px;
 }
 
