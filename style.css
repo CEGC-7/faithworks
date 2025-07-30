@@ -92,7 +92,9 @@ footer {
 }
 
 .copyright-logo {
-    width: 36;
-    height: 45;
+    width: 60px;
+    height: 76px;
+    object-fit: contain;
     margin-bottom: 10px;
+    filter: grayscale(100%);
 }
