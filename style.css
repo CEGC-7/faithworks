@@ -6,54 +6,6 @@ body {
     padding: 0;
 }
 
-nav {
-    background-color: #556B2F;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    padding: 10px 0;
-}
-
-.nav-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px; /* adds space between logo and links */
-}
-
-.logo {
-    width: 120px;
-    height: 152px;
-    object-fit: cover;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 15px 20px;
-    display: inline-block;
-}
-
-nav ul li a:hover {
-    background-color: #6B8E23;
-    border-radius: 5px;
-}
-
 header {
     padding: 140px 20px 20px; /* Increased top padding to clear the nav bar */
     background-color: #556B2F;
@@ -89,23 +41,4 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.copyright-logo {
-    width: 60px;
-    height: 76px;
-    object-fit: contain;
-    margin-bottom: 10px;
-    filter: grayscale(100%);
-}
-
-a {
-  color: #0066cc;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #003366;
 }
