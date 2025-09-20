@@ -56,7 +56,7 @@ nav ul li a:hover {
 
 header {
     padding: 140px 20px 20px; /* Increased top padding to clear the nav bar */
-    background-color: #556B2F;
+    background-color: #AF6EEB;
     color: white;
     text-align: center;
 }
@@ -109,3 +109,4 @@ a:hover {
   text-decoration: underline;
   color: #003366;
 }
+
