@@ -7,22 +7,22 @@ const bgImages = [
 ];
 
 let current = 0;
-const bodyBefore = document.body;
+const bg = document.getElementById("bg-slideshow");
 
 // Set initial background
-document.body.style.setProperty('--bg-image', `url(${bgImages[current]})`);
-document.body.style.backgroundImage = `url(${bgImages[current]})`;
+bg.style.backgroundImage = `url(${bgImages[current]})`;
 
-// Function to change background with fade
 function changeBackground() {
-    const beforeLayer = document.body;
-    beforeLayer.style.opacity = 0; // fade out
+    // Fade out
+    bg.style.opacity = 0;
 
     setTimeout(() => {
+        // Move to next image
         current = (current + 1) % bgImages.length;
-        beforeLayer.style.backgroundImage = `url(${bgImages[current]})`;
-        beforeLayer.style.opacity = 1; // fade in
-    }, 1000); // match CSS transition duration
+        bg.style.backgroundImage = `url(${bgImages[current]})`;
+        // Fade in
+        bg.style.opacity = 1;
+    }, 1000); // matches CSS transition duration
 }
 
 // Change every 5 seconds
