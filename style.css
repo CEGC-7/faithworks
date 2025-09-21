@@ -1,3 +1,4 @@
+/* ===== Global Styles ===== */
 body {
     font-family: "Times New Roman", Times, serif;
     color: #333;
@@ -7,9 +8,8 @@ body {
     overflow-x: hidden;
 }
 
-/* Background slideshow layer */
-body::before {
-    content: "";
+/* Background slideshow container */
+#bg-slideshow {
     position: fixed;
     top: 0;
     left: 0;
@@ -23,7 +23,7 @@ body::before {
     transition: opacity 1s ease-in-out;
 }
 
-/* NAVIGATION */
+/* ===== Navigation ===== */
 nav {
     background-color: #AF6EEB;
     position: fixed;
@@ -72,7 +72,7 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* HEADER */
+/* ===== Header ===== */
 header {
     padding: 140px 20px 20px;
     background-color: rgba(175, 110, 235, 0.85);
@@ -86,7 +86,7 @@ header h1 {
     text-align: center;
 }
 
-/* MAIN CONTENT */
+/* ===== Main Content ===== */
 main {
     margin: 60px auto;
     padding-top: 80px;
@@ -100,7 +100,7 @@ h2 {
     text-align: center;
 }
 
-/* FOOTER */
+/* ===== Footer ===== */
 footer {
     text-align: center;
     padding: 20px;
@@ -122,7 +122,7 @@ footer {
     filter: grayscale(100%);
 }
 
-/* LINKS */
+/* ===== Links ===== */
 a {
   color: #0066cc;
   text-decoration: none;
