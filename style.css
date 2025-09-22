@@ -92,7 +92,7 @@ main {
     padding-top: 80px;
     width: 80%;
     text-align: center;
-    background-color: rgba(252, 255, 238, 0.85); /* semi-transparent so bg shows through */
+    background: none;
     border-radius: 8px;
 }
 
