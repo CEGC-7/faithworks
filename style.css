@@ -1,29 +1,11 @@
-/* ===== Global Styles ===== */
 body {
     font-family: "Times New Roman", Times, serif;
+    background-color: #FCFFEE;
     color: #333;
     margin: 0;
     padding: 0;
-    position: relative;
-    overflow-x: hidden;
 }
 
-/* Background slideshow container */
-#bg-slideshow {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -1;
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
-}
-
-/* ===== Navigation ===== */
 nav {
     background-color: #AF6EEB;
     position: fixed;
@@ -38,7 +20,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 20px; /* adds space between logo and links */
 }
 
 .logo {
@@ -72,40 +54,35 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* ===== Header ===== */
 header {
-    padding: 140px 20px 20px;
-    background-color: rgba(175, 110, 235, 0.85);
+    padding: 140px 20px 20px; /* Increased top padding to clear the nav bar */
+    background-color: #AF6EEB;
     color: white;
     text-align: center;
 }
 
 header h1 {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 2.2rem;
+    font-size: 2.2rem; /* Slightly larger font */
     text-align: center;
 }
 
-/* ===== Main Content ===== */
 main {
-    margin: 60px auto;
-    padding-top: 80px;
-    width: 80%;
-    text-align: center;
-    background-color: rgba(252, 255, 238, 0.85); /* semi-transparent so bg shows through */
-    border-radius: 8px;
+    margin: 60px auto; /* Increased margin for a larger page */
+    padding-top: 80px; /* Adjusted to avoid overlap with navbar */
+    width: 80%; /* Expands main content width */
+    text-align: center; /* Center-aligns headings */
 }
 
 h2 {
     text-align: center;
 }
 
-/* ===== Footer ===== */
 footer {
     text-align: center;
     padding: 20px;
     background-color: #4c4c4c;
-    color: #777;
+    color: #777
 }
 
 .copyright-container {
@@ -122,7 +99,6 @@ footer {
     filter: grayscale(100%);
 }
 
-/* ===== Links ===== */
 a {
   color: #0066cc;
   text-decoration: none;
@@ -133,4 +109,6 @@ a:hover {
   text-decoration: underline;
   color: #003366;
 }
+
+
 
