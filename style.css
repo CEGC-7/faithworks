@@ -14,7 +14,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 500px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@ main {
     padding-top: 80px;
     width: 80%;
     text-align: center;
-    background: none;
+    background-color: rgba(252, 255, 238, 0.85); /* semi-transparent so bg shows through */
     border-radius: 8px;
 }
 

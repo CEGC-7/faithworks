@@ -1,9 +1,9 @@
 // Array of background images
 const bgImages = [
-    "img/bg1.png",
-    "img/bg2.png",
-    "img/bg3.png",
-    "img/bg4.png"
+    "img/bg1.jpg",
+    "img/bg2.jpg",
+    "img/bg3.jpg",
+    "img/bg4.jpg"
 ];
 
 let current = 0;
