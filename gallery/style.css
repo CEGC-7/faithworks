@@ -1,0 +1,6 @@
+.gallery img {
+  width: 30%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
