@@ -15,7 +15,7 @@ body::after {
     left: 0;
     width: 100%;
     height: auto;
-    background: url("img/hands.png") no-repeat center center;
+    background: url("/img/hands.png") no-repeat center center;
     background-size: cover;
     opacity: 0.2; /* image transparency */
     pointer-events: none; /* ensures clicks go through to links/buttons */
