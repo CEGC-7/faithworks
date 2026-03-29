@@ -1,4 +1,10 @@
+html, body {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     font-family: "Times New Roman", Times, serif;
     background-color: #0D600F; /* solid green base */
     color: #DCDCDC;
@@ -99,6 +105,7 @@ footer {
     padding: 20px;
     background-color: #4c4c4c;
     color: #777
+    margin-top: auto;
 }
 
 .copyright-container {
