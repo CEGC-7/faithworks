@@ -16,16 +16,23 @@ body {
 /* Transparent image overlay */
 body::after {
     content: "";
-    position: fixed; /* stays in place when scrolling */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    background: url("/img/hands.png") no-repeat center center;
-    background-size: cover;
-    opacity: 0.2; /* image transparency */
-    pointer-events: none; /* ensures clicks go through to links/buttons */
-    z-index: 1111; /* sits above background colors */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    /* Make the pseudo-element square based on the longer viewport dimension */
+    width: max(100vw, 100vh);
+    height: max(100vw, 100vh);
+
+    transform: translate(-50%, -50%);
+
+    background: url("img/hands.png") no-repeat center center;
+    background-size: contain; /* ← preserves aspect ratio */
+    background-repeat: no-repeat;
+
+    opacity: 0.2;
+    pointer-events: none;
+    z-index: 1111;
 }
 
 nav {
@@ -94,6 +101,7 @@ main {
     padding-top: 80px; /* Adjusted to avoid overlap with navbar */
     width: 80%; /* Expands main content width */
     text-align: center; /* Center-aligns headings */
+    flex: 1 0 auto;
 }
 
 h2 {
@@ -132,6 +140,3 @@ a:hover {
   text-decoration: underline;
   color: #003366;
 }
-
-
-
