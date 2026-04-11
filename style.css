@@ -79,7 +79,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #6B8E23;
+    color: #701ABF;
     border-radius: 5px;
 }
 
@@ -131,12 +131,19 @@ footer {
 }
 
 a {
-  color: #893322;
+  color: #AF6EEB;
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #9a341d;
+  color: #9641E5;
+}
+
+button {
+  padding: 10px 20px;
+  background: #8B0000;
+  border: none;
+  border-radius:4px;
 }
