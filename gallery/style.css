@@ -1,5 +1,5 @@
 .gallery img {
-  width: 33%;
+  width: 30%;
   max-width: 100%;
   height: auto;
   border-radius: 8px;
@@ -7,6 +7,6 @@
   z-index: 9999;
 }
 
-.gallery img.vertical { width: 24.5%; }
+.gallery img.vertical { width: 22.5%; }
 
 h2 {text-align: center;}
