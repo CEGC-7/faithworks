@@ -6,4 +6,7 @@
   position: relative;
   z-index: 9999;
 }
+
+.gallery img.vertical { width: 24.75%; }
+
 h2 {text-align: center;}
